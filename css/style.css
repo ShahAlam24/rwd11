@@ -423,3 +423,96 @@ img{
 /* =======================================
     Portfolio css end
 =========================================*/
+/* =======================================
+    Team css start
+=========================================*/
+#team-part{
+    text-align: center;
+}
+.section_head{
+    margin-bottom: 30px;
+}
+.team-row{
+    padding-bottom: 60px;
+}
+.team-col{
+    width: 23.40%;
+    margin-right: 20px;
+    float: left;
+
+}
+.team-col:nth-child(4){
+    margin-right: 0px;
+}
+.team-col img{
+    width: 100%;
+    height: 100%;
+    
+    
+}
+.team-col:hover h2{
+    color: #5bc5f4;
+}
+.team-col:hover .team-img{
+    box-shadow: 0px 0px 22px 2px rgb(0, 0, 0, .26);
+}
+.team-img{
+    position: relative;
+    
+}
+.img-overlay{
+    display: none;
+    position: absolute;
+   
+}
+
+.img-overlay:hover{
+    transition: all linear .6s;
+}
+.team-img:hover .img-overlay{
+    height: 100%;
+    width: 80px;
+    top: 0;
+    right: 0;
+    display: block;
+    background: rgb(0, 0, 0, .6);
+    float:right;
+}
+
+.s-icon{
+    width: 38px;
+    height: 38px;
+    display: block;
+    margin: 15px auto;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    position: absulate;
+}
+.s-icon:hover{
+    background: #5bc5f4;
+    border-color: #5bc5f4;
+}
+
+.s-icon a{
+    line-height: 38px;
+    text-align: center;
+    color: #ffffff;
+}
+.team-text{}
+.team-text h2{
+    font-size: 16px;
+    font-weight:500 ;
+    margin-top: 5px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    color: #353535;
+}
+.team-text h4{
+    font-size: 14px;
+    font-weight:400 ;
+    font-family: 'Oswald', sans-serif;
+    color: #555555;
+}
+/* =======================================
+    Team css end
+=========================================*/
